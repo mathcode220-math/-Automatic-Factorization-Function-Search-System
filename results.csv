@@ -1,0 +1,970 @@
+Function Name,Code,Test Number,Score,Computation Time,True Positives,False Positives
+gcd_ratio,"    def _gcd_ratio(self, n, k):
+        """"""دالة نسبة القاسم المشترك""""""
+        return 1 + (gcd(n, k) ** 2) / (n * k)
+",21,0.0,0.08821487426757812,0,0
+gcd_ratio,"    def _gcd_ratio(self, n, k):
+        """"""دالة نسبة القاسم المشترك""""""
+        return 1 + (gcd(n, k) ** 2) / (n * k)
+",35,0.0,0.13303756713867188,0,0
+gcd_ratio,"    def _gcd_ratio(self, n, k):
+        """"""دالة نسبة القاسم المشترك""""""
+        return 1 + (gcd(n, k) ** 2) / (n * k)
+",100,0.0,0.17595291137695312,0,0
+gcd_ratio,"    def _gcd_ratio(self, n, k):
+        """"""دالة نسبة القاسم المشترك""""""
+        return 1 + (gcd(n, k) ** 2) / (n * k)
+",256,0.0,0.2205371856689453,0,0
+gcd_ratio,"    def _gcd_ratio(self, n, k):
+        """"""دالة نسبة القاسم المشترك""""""
+        return 1 + (gcd(n, k) ** 2) / (n * k)
+",101,0.0,0.25200843811035156,0,0
+gcd_ratio,"    def _gcd_ratio(self, n, k):
+        """"""دالة نسبة القاسم المشترك""""""
+        return 1 + (gcd(n, k) ** 2) / (n * k)
+",103,0.0,0.2830028533935547,0,0
+gcd_ratio,"    def _gcd_ratio(self, n, k):
+        """"""دالة نسبة القاسم المشترك""""""
+        return 1 + (gcd(n, k) ** 2) / (n * k)
+",107,0.0,0.3139972686767578,0,0
+gcd_ratio,"    def _gcd_ratio(self, n, k):
+        """"""دالة نسبة القاسم المشترك""""""
+        return 1 + (gcd(n, k) ** 2) / (n * k)
+",109,0.0,0.34332275390625,0,0
+gcd_ratio,"    def _gcd_ratio(self, n, k):
+        """"""دالة نسبة القاسم المشترك""""""
+        return 1 + (gcd(n, k) ** 2) / (n * k)
+",113,0.0,0.3724098205566406,0,0
+gcd_ratio,"    def _gcd_ratio(self, n, k):
+        """"""دالة نسبة القاسم المشترك""""""
+        return 1 + (gcd(n, k) ** 2) / (n * k)
+",127,0.0,0.40340423583984375,0,0
+gcd_ratio,"    def _gcd_ratio(self, n, k):
+        """"""دالة نسبة القاسم المشترك""""""
+        return 1 + (gcd(n, k) ** 2) / (n * k)
+",131,0.0,0.4417896270751953,0,0
+gcd_ratio,"    def _gcd_ratio(self, n, k):
+        """"""دالة نسبة القاسم المشترك""""""
+        return 1 + (gcd(n, k) ** 2) / (n * k)
+",137,0.0,0.47278404235839844,0,0
+gcd_ratio,"    def _gcd_ratio(self, n, k):
+        """"""دالة نسبة القاسم المشترك""""""
+        return 1 + (gcd(n, k) ** 2) / (n * k)
+",139,0.0,0.5033016204833984,0,0
+gcd_ratio,"    def _gcd_ratio(self, n, k):
+        """"""دالة نسبة القاسم المشترك""""""
+        return 1 + (gcd(n, k) ** 2) / (n * k)
+",149,0.0,0.5357265472412109,0,0
+gcd_ratio,"    def _gcd_ratio(self, n, k):
+        """"""دالة نسبة القاسم المشترك""""""
+        return 1 + (gcd(n, k) ** 2) / (n * k)
+",143,0.0,0.5686283111572266,0,0
+gcd_ratio,"    def _gcd_ratio(self, n, k):
+        """"""دالة نسبة القاسم المشترك""""""
+        return 1 + (gcd(n, k) ** 2) / (n * k)
+",323,0.0,0.6096363067626953,0,0
+gcd_ratio,"    def _gcd_ratio(self, n, k):
+        """"""دالة نسبة القاسم المشترك""""""
+        return 1 + (gcd(n, k) ** 2) / (n * k)
+",667,0.0,0.6761550903320312,0,0
+modular_distance,"    def _modular_distance(self, n, k, base=2):
+        """"""دالة المسافة المعيارية""""""
+        try:
+            x = pow(base, n, k)
+            y = pow(base, k, n)
+            return 1 + abs(x - y) / min(k, n)
+        except:
+            return 1
+",21,0.5,0.07963180541992188,2,2
+modular_distance,"    def _modular_distance(self, n, k, base=2):
+        """"""دالة المسافة المعيارية""""""
+        try:
+            x = pow(base, n, k)
+            y = pow(base, k, n)
+            return 1 + abs(x - y) / min(k, n)
+        except:
+            return 1
+",35,0.4444444444444445,0.11897087097167969,2,3
+modular_distance,"    def _modular_distance(self, n, k, base=2):
+        """"""دالة المسافة المعيارية""""""
+        try:
+            x = pow(base, n, k)
+            y = pow(base, k, n)
+            return 1 + abs(x - y) / min(k, n)
+        except:
+            return 1
+",100,0.5263157894736842,0.17070770263671875,5,5
+modular_distance,"    def _modular_distance(self, n, k, base=2):
+        """"""دالة المسافة المعيارية""""""
+        try:
+            x = pow(base, n, k)
+            y = pow(base, k, n)
+            return 1 + abs(x - y) / min(k, n)
+        except:
+            return 1
+",256,0.28571428571428575,0.23221969604492188,3,9
+modular_distance,"    def _modular_distance(self, n, k, base=2):
+        """"""دالة المسافة المعيارية""""""
+        try:
+            x = pow(base, n, k)
+            y = pow(base, k, n)
+            return 1 + abs(x - y) / min(k, n)
+        except:
+            return 1
+",101,0.16666666666666669,0.27871131896972656,1,9
+modular_distance,"    def _modular_distance(self, n, k, base=2):
+        """"""دالة المسافة المعيارية""""""
+        try:
+            x = pow(base, n, k)
+            y = pow(base, k, n)
+            return 1 + abs(x - y) / min(k, n)
+        except:
+            return 1
+",103,0.16666666666666669,0.32210350036621094,1,9
+modular_distance,"    def _modular_distance(self, n, k, base=2):
+        """"""دالة المسافة المعيارية""""""
+        try:
+            x = pow(base, n, k)
+            y = pow(base, k, n)
+            return 1 + abs(x - y) / min(k, n)
+        except:
+            return 1
+",107,0.16666666666666669,0.3654956817626953,1,9
+modular_distance,"    def _modular_distance(self, n, k, base=2):
+        """"""دالة المسافة المعيارية""""""
+        try:
+            x = pow(base, n, k)
+            y = pow(base, k, n)
+            return 1 + abs(x - y) / min(k, n)
+        except:
+            return 1
+",109,0.16666666666666669,0.4074573516845703,1,9
+modular_distance,"    def _modular_distance(self, n, k, base=2):
+        """"""دالة المسافة المعيارية""""""
+        try:
+            x = pow(base, n, k)
+            y = pow(base, k, n)
+            return 1 + abs(x - y) / min(k, n)
+        except:
+            return 1
+",113,0.16666666666666669,0.44798851013183594,1,9
+modular_distance,"    def _modular_distance(self, n, k, base=2):
+        """"""دالة المسافة المعيارية""""""
+        try:
+            x = pow(base, n, k)
+            y = pow(base, k, n)
+            return 1 + abs(x - y) / min(k, n)
+        except:
+            return 1
+",127,0.1818181818181818,0.49591064453125,1,8
+modular_distance,"    def _modular_distance(self, n, k, base=2):
+        """"""دالة المسافة المعيارية""""""
+        try:
+            x = pow(base, n, k)
+            y = pow(base, k, n)
+            return 1 + abs(x - y) / min(k, n)
+        except:
+            return 1
+",131,0.15384615384615385,0.5424022674560547,1,10
+modular_distance,"    def _modular_distance(self, n, k, base=2):
+        """"""دالة المسافة المعيارية""""""
+        try:
+            x = pow(base, n, k)
+            y = pow(base, k, n)
+            return 1 + abs(x - y) / min(k, n)
+        except:
+            return 1
+",137,0.15384615384615385,0.5869865417480469,1,10
+modular_distance,"    def _modular_distance(self, n, k, base=2):
+        """"""دالة المسافة المعيارية""""""
+        try:
+            x = pow(base, n, k)
+            y = pow(base, k, n)
+            return 1 + abs(x - y) / min(k, n)
+        except:
+            return 1
+",139,0.15384615384615385,0.6320476531982422,1,10
+modular_distance,"    def _modular_distance(self, n, k, base=2):
+        """"""دالة المسافة المعيارية""""""
+        try:
+            x = pow(base, n, k)
+            y = pow(base, k, n)
+            return 1 + abs(x - y) / min(k, n)
+        except:
+            return 1
+",149,0.14285714285714285,0.67901611328125,1,11
+modular_distance,"    def _modular_distance(self, n, k, base=2):
+        """"""دالة المسافة المعيارية""""""
+        try:
+            x = pow(base, n, k)
+            y = pow(base, k, n)
+            return 1 + abs(x - y) / min(k, n)
+        except:
+            return 1
+",143,0.26666666666666666,0.7259845733642578,2,9
+modular_distance,"    def _modular_distance(self, n, k, base=2):
+        """"""دالة المسافة المعيارية""""""
+        try:
+            x = pow(base, n, k)
+            y = pow(base, k, n)
+            return 1 + abs(x - y) / min(k, n)
+        except:
+            return 1
+",323,0.19047619047619047,0.7925033569335938,2,15
+modular_distance,"    def _modular_distance(self, n, k, base=2):
+        """"""دالة المسافة المعيارية""""""
+        try:
+            x = pow(base, n, k)
+            y = pow(base, k, n)
+            return 1 + abs(x - y) / min(k, n)
+        except:
+            return 1
+",667,0.13793103448275865,0.8826255798339844,2,23
+heuristic_pollard,"    def _heuristic_pollard(self, n, k, iterations=100):
+        """"""دالة عشوائية موجهة""""""
+        if k == 1 or k == n:
+            return 2.0
+
+        matches = 0
+        for i in range(iterations):
+            a = hash((n, k, i)) % min(n, k) + 1
+            if pow(a, k-1, k) == 1:  # اختبار Fermat المحسّن
+                if n % k == 0:
+                    matches += 2
+                else:
+                    matches += 0.5
+
+        return 1 + matches / iterations
+",21,0.5714285714285715,0.4334449768066406,2,1
+heuristic_pollard,"    def _heuristic_pollard(self, n, k, iterations=100):
+        """"""دالة عشوائية موجهة""""""
+        if k == 1 or k == n:
+            return 2.0
+
+        matches = 0
+        for i in range(iterations):
+            a = hash((n, k, i)) % min(n, k) + 1
+            if pow(a, k-1, k) == 1:  # اختبار Fermat المحسّن
+                if n % k == 0:
+                    matches += 2
+                else:
+                    matches += 0.5
+
+        return 1 + matches / iterations
+",35,0.5,0.9322166442871094,2,2
+heuristic_pollard,"    def _heuristic_pollard(self, n, k, iterations=100):
+        """"""دالة عشوائية موجهة""""""
+        if k == 1 or k == n:
+            return 2.0
+
+        matches = 0
+        for i in range(iterations):
+            a = hash((n, k, i)) % min(n, k) + 1
+            if pow(a, k-1, k) == 1:  # اختبار Fermat المحسّن
+                if n % k == 0:
+                    matches += 2
+                else:
+                    matches += 0.5
+
+        return 1 + matches / iterations
+",100,0.6250000000000001,2.048015594482422,5,2
+heuristic_pollard,"    def _heuristic_pollard(self, n, k, iterations=100):
+        """"""دالة عشوائية موجهة""""""
+        if k == 1 or k == n:
+            return 2.0
+
+        matches = 0
+        for i in range(iterations):
+            a = hash((n, k, i)) % min(n, k) + 1
+            if pow(a, k-1, k) == 1:  # اختبار Fermat المحسّن
+                if n % k == 0:
+                    matches += 2
+                else:
+                    matches += 0.5
+
+        return 1 + matches / iterations
+",256,0.4444444444444444,4.012107849121094,4,5
+heuristic_pollard,"    def _heuristic_pollard(self, n, k, iterations=100):
+        """"""دالة عشوائية موجهة""""""
+        if k == 1 or k == n:
+            return 2.0
+
+        matches = 0
+        for i in range(iterations):
+            a = hash((n, k, i)) % min(n, k) + 1
+            if pow(a, k-1, k) == 1:  # اختبار Fermat المحسّن
+                if n % k == 0:
+                    matches += 2
+                else:
+                    matches += 0.5
+
+        return 1 + matches / iterations
+",101,0.28571428571428575,5.130767822265625,1,4
+heuristic_pollard,"    def _heuristic_pollard(self, n, k, iterations=100):
+        """"""دالة عشوائية موجهة""""""
+        if k == 1 or k == n:
+            return 2.0
+
+        matches = 0
+        for i in range(iterations):
+            a = hash((n, k, i)) % min(n, k) + 1
+            if pow(a, k-1, k) == 1:  # اختبار Fermat المحسّن
+                if n % k == 0:
+                    matches += 2
+                else:
+                    matches += 0.5
+
+        return 1 + matches / iterations
+",103,0.28571428571428575,6.241083145141602,1,4
+heuristic_pollard,"    def _heuristic_pollard(self, n, k, iterations=100):
+        """"""دالة عشوائية موجهة""""""
+        if k == 1 or k == n:
+            return 2.0
+
+        matches = 0
+        for i in range(iterations):
+            a = hash((n, k, i)) % min(n, k) + 1
+            if pow(a, k-1, k) == 1:  # اختبار Fermat المحسّن
+                if n % k == 0:
+                    matches += 2
+                else:
+                    matches += 0.5
+
+        return 1 + matches / iterations
+",107,0.28571428571428575,7.399797439575195,1,4
+heuristic_pollard,"    def _heuristic_pollard(self, n, k, iterations=100):
+        """"""دالة عشوائية موجهة""""""
+        if k == 1 or k == n:
+            return 2.0
+
+        matches = 0
+        for i in range(iterations):
+            a = hash((n, k, i)) % min(n, k) + 1
+            if pow(a, k-1, k) == 1:  # اختبار Fermat المحسّن
+                if n % k == 0:
+                    matches += 2
+                else:
+                    matches += 0.5
+
+        return 1 + matches / iterations
+",109,0.28571428571428575,8.485794067382812,1,4
+heuristic_pollard,"    def _heuristic_pollard(self, n, k, iterations=100):
+        """"""دالة عشوائية موجهة""""""
+        if k == 1 or k == n:
+            return 2.0
+
+        matches = 0
+        for i in range(iterations):
+            a = hash((n, k, i)) % min(n, k) + 1
+            if pow(a, k-1, k) == 1:  # اختبار Fermat المحسّن
+                if n % k == 0:
+                    matches += 2
+                else:
+                    matches += 0.5
+
+        return 1 + matches / iterations
+",113,0.28571428571428575,9.894609451293945,1,4
+heuristic_pollard,"    def _heuristic_pollard(self, n, k, iterations=100):
+        """"""دالة عشوائية موجهة""""""
+        if k == 1 or k == n:
+            return 2.0
+
+        matches = 0
+        for i in range(iterations):
+            a = hash((n, k, i)) % min(n, k) + 1
+            if pow(a, k-1, k) == 1:  # اختبار Fermat المحسّن
+                if n % k == 0:
+                    matches += 2
+                else:
+                    matches += 0.5
+
+        return 1 + matches / iterations
+",127,0.25,11.158466339111328,1,5
+heuristic_pollard,"    def _heuristic_pollard(self, n, k, iterations=100):
+        """"""دالة عشوائية موجهة""""""
+        if k == 1 or k == n:
+            return 2.0
+
+        matches = 0
+        for i in range(iterations):
+            a = hash((n, k, i)) % min(n, k) + 1
+            if pow(a, k-1, k) == 1:  # اختبار Fermat المحسّن
+                if n % k == 0:
+                    matches += 2
+                else:
+                    matches += 0.5
+
+        return 1 + matches / iterations
+",131,0.25,12.421369552612305,1,5
+heuristic_pollard,"    def _heuristic_pollard(self, n, k, iterations=100):
+        """"""دالة عشوائية موجهة""""""
+        if k == 1 or k == n:
+            return 2.0
+
+        matches = 0
+        for i in range(iterations):
+            a = hash((n, k, i)) % min(n, k) + 1
+            if pow(a, k-1, k) == 1:  # اختبار Fermat المحسّن
+                if n % k == 0:
+                    matches += 2
+                else:
+                    matches += 0.5
+
+        return 1 + matches / iterations
+",137,0.25,13.65518569946289,1,5
+heuristic_pollard,"    def _heuristic_pollard(self, n, k, iterations=100):
+        """"""دالة عشوائية موجهة""""""
+        if k == 1 or k == n:
+            return 2.0
+
+        matches = 0
+        for i in range(iterations):
+            a = hash((n, k, i)) % min(n, k) + 1
+            if pow(a, k-1, k) == 1:  # اختبار Fermat المحسّن
+                if n % k == 0:
+                    matches += 2
+                else:
+                    matches += 0.5
+
+        return 1 + matches / iterations
+",139,0.25,15.105009078979492,1,5
+heuristic_pollard,"    def _heuristic_pollard(self, n, k, iterations=100):
+        """"""دالة عشوائية موجهة""""""
+        if k == 1 or k == n:
+            return 2.0
+
+        matches = 0
+        for i in range(iterations):
+            a = hash((n, k, i)) % min(n, k) + 1
+            if pow(a, k-1, k) == 1:  # اختبار Fermat المحسّن
+                if n % k == 0:
+                    matches += 2
+                else:
+                    matches += 0.5
+
+        return 1 + matches / iterations
+",149,0.25,16.469955444335938,1,5
+heuristic_pollard,"    def _heuristic_pollard(self, n, k, iterations=100):
+        """"""دالة عشوائية موجهة""""""
+        if k == 1 or k == n:
+            return 2.0
+
+        matches = 0
+        for i in range(iterations):
+            a = hash((n, k, i)) % min(n, k) + 1
+            if pow(a, k-1, k) == 1:  # اختبار Fermat المحسّن
+                if n % k == 0:
+                    matches += 2
+                else:
+                    matches += 0.5
+
+        return 1 + matches / iterations
+",143,0.4,17.722129821777344,2,4
+heuristic_pollard,"    def _heuristic_pollard(self, n, k, iterations=100):
+        """"""دالة عشوائية موجهة""""""
+        if k == 1 or k == n:
+            return 2.0
+
+        matches = 0
+        for i in range(iterations):
+            a = hash((n, k, i)) % min(n, k) + 1
+            if pow(a, k-1, k) == 1:  # اختبار Fermat المحسّن
+                if n % k == 0:
+                    matches += 2
+                else:
+                    matches += 0.5
+
+        return 1 + matches / iterations
+",323,0.3333333333333333,19.94180679321289,2,6
+heuristic_pollard,"    def _heuristic_pollard(self, n, k, iterations=100):
+        """"""دالة عشوائية موجهة""""""
+        if k == 1 or k == n:
+            return 2.0
+
+        matches = 0
+        for i in range(iterations):
+            a = hash((n, k, i)) % min(n, k) + 1
+            if pow(a, k-1, k) == 1:  # اختبار Fermat المحسّن
+                if n % k == 0:
+                    matches += 2
+                else:
+                    matches += 0.5
+
+        return 1 + matches / iterations
+",667,0.28571428571428575,23.160696029663086,2,8
+shadow_euler,"    def _shadow_euler(self, n, k):
+        """"""دالة أويلر الظلية المقترحة""""""
+        # حساب φ تقريبي
+        def approx_totient(x):
+            if x < 1000:  # جدول قيم صغير
+                return sum(1 for i in range(1, x) if gcd(i, x) == 1)
+            else:
+                # تقريب بسيط لا يحتاج التحليل
+                return int(x * 0.6)  # تقريب خاطئ لكن سريع
+
+        try:
+            phi_nk = approx_totient(n * k)
+            phi_n = approx_totient(n)
+            phi_k = approx_totient(k)
+
+            if phi_n * phi_k == 0:
+                return 1
+            return phi_nk / (phi_n * phi_k)
+        except:
+            return 1
+",21,0.4,0.2472400665283203,1,0
+shadow_euler,"    def _shadow_euler(self, n, k):
+        """"""دالة أويلر الظلية المقترحة""""""
+        # حساب φ تقريبي
+        def approx_totient(x):
+            if x < 1000:  # جدول قيم صغير
+                return sum(1 for i in range(1, x) if gcd(i, x) == 1)
+            else:
+                # تقريب بسيط لا يحتاج التحليل
+                return int(x * 0.6)  # تقريب خاطئ لكن سريع
+
+        try:
+            phi_nk = approx_totient(n * k)
+            phi_n = approx_totient(n)
+            phi_k = approx_totient(k)
+
+            if phi_n * phi_k == 0:
+                return 1
+            return phi_nk / (phi_n * phi_k)
+        except:
+            return 1
+",35,0.4,0.6315708160400391,1,0
+shadow_euler,"    def _shadow_euler(self, n, k):
+        """"""دالة أويلر الظلية المقترحة""""""
+        # حساب φ تقريبي
+        def approx_totient(x):
+            if x < 1000:  # جدول قيم صغير
+                return sum(1 for i in range(1, x) if gcd(i, x) == 1)
+            else:
+                # تقريب بسيط لا يحتاج التحليل
+                return int(x * 0.6)  # تقريب خاطئ لكن سريع
+
+        try:
+            phi_nk = approx_totient(n * k)
+            phi_n = approx_totient(n)
+            phi_k = approx_totient(k)
+
+            if phi_n * phi_k == 0:
+                return 1
+            return phi_nk / (phi_n * phi_k)
+        except:
+            return 1
+",100,0.5333333333333333,3.3273696899414062,4,2
+shadow_euler,"    def _shadow_euler(self, n, k):
+        """"""دالة أويلر الظلية المقترحة""""""
+        # حساب φ تقريبي
+        def approx_totient(x):
+            if x < 1000:  # جدول قيم صغير
+                return sum(1 for i in range(1, x) if gcd(i, x) == 1)
+            else:
+                # تقريب بسيط لا يحتاج التحليل
+                return int(x * 0.6)  # تقريب خاطئ لكن سريع
+
+        try:
+            phi_nk = approx_totient(n * k)
+            phi_n = approx_totient(n)
+            phi_k = approx_totient(k)
+
+            if phi_n * phi_k == 0:
+                return 1
+            return phi_nk / (phi_n * phi_k)
+        except:
+            return 1
+",256,0.34782608695652173,6.558895111083984,4,10
+shadow_euler,"    def _shadow_euler(self, n, k):
+        """"""دالة أويلر الظلية المقترحة""""""
+        # حساب φ تقريبي
+        def approx_totient(x):
+            if x < 1000:  # جدول قيم صغير
+                return sum(1 for i in range(1, x) if gcd(i, x) == 1)
+            else:
+                # تقريب بسيط لا يحتاج التحليل
+                return int(x * 0.6)  # تقريب خاطئ لكن سريع
+
+        try:
+            phi_nk = approx_totient(n * k)
+            phi_n = approx_totient(n)
+            phi_k = approx_totient(k)
+
+            if phi_n * phi_k == 0:
+                return 1
+            return phi_nk / (phi_n * phi_k)
+        except:
+            return 1
+",101,0.0,9.879589080810547,0,1
+shadow_euler,"    def _shadow_euler(self, n, k):
+        """"""دالة أويلر الظلية المقترحة""""""
+        # حساب φ تقريبي
+        def approx_totient(x):
+            if x < 1000:  # جدول قيم صغير
+                return sum(1 for i in range(1, x) if gcd(i, x) == 1)
+            else:
+                # تقريب بسيط لا يحتاج التحليل
+                return int(x * 0.6)  # تقريب خاطئ لكن سريع
+
+        try:
+            phi_nk = approx_totient(n * k)
+            phi_n = approx_totient(n)
+            phi_k = approx_totient(k)
+
+            if phi_n * phi_k == 0:
+                return 1
+            return phi_nk / (phi_n * phi_k)
+        except:
+            return 1
+",103,0.0,12.988567352294922,0,1
+shadow_euler,"    def _shadow_euler(self, n, k):
+        """"""دالة أويلر الظلية المقترحة""""""
+        # حساب φ تقريبي
+        def approx_totient(x):
+            if x < 1000:  # جدول قيم صغير
+                return sum(1 for i in range(1, x) if gcd(i, x) == 1)
+            else:
+                # تقريب بسيط لا يحتاج التحليل
+                return int(x * 0.6)  # تقريب خاطئ لكن سريع
+
+        try:
+            phi_nk = approx_totient(n * k)
+            phi_n = approx_totient(n)
+            phi_k = approx_totient(k)
+
+            if phi_n * phi_k == 0:
+                return 1
+            return phi_nk / (phi_n * phi_k)
+        except:
+            return 1
+",107,0.0,16.220569610595703,0,1
+shadow_euler,"    def _shadow_euler(self, n, k):
+        """"""دالة أويلر الظلية المقترحة""""""
+        # حساب φ تقريبي
+        def approx_totient(x):
+            if x < 1000:  # جدول قيم صغير
+                return sum(1 for i in range(1, x) if gcd(i, x) == 1)
+            else:
+                # تقريب بسيط لا يحتاج التحليل
+                return int(x * 0.6)  # تقريب خاطئ لكن سريع
+
+        try:
+            phi_nk = approx_totient(n * k)
+            phi_n = approx_totient(n)
+            phi_k = approx_totient(k)
+
+            if phi_n * phi_k == 0:
+                return 1
+            return phi_nk / (phi_n * phi_k)
+        except:
+            return 1
+",109,0.0,19.65785026550293,0,1
+shadow_euler,"    def _shadow_euler(self, n, k):
+        """"""دالة أويلر الظلية المقترحة""""""
+        # حساب φ تقريبي
+        def approx_totient(x):
+            if x < 1000:  # جدول قيم صغير
+                return sum(1 for i in range(1, x) if gcd(i, x) == 1)
+            else:
+                # تقريب بسيط لا يحتاج التحليل
+                return int(x * 0.6)  # تقريب خاطئ لكن سريع
+
+        try:
+            phi_nk = approx_totient(n * k)
+            phi_n = approx_totient(n)
+            phi_k = approx_totient(k)
+
+            if phi_n * phi_k == 0:
+                return 1
+            return phi_nk / (phi_n * phi_k)
+        except:
+            return 1
+",113,0.0,22.758960723876953,0,1
+shadow_euler,"    def _shadow_euler(self, n, k):
+        """"""دالة أويلر الظلية المقترحة""""""
+        # حساب φ تقريبي
+        def approx_totient(x):
+            if x < 1000:  # جدول قيم صغير
+                return sum(1 for i in range(1, x) if gcd(i, x) == 1)
+            else:
+                # تقريب بسيط لا يحتاج التحليل
+                return int(x * 0.6)  # تقريب خاطئ لكن سريع
+
+        try:
+            phi_nk = approx_totient(n * k)
+            phi_n = approx_totient(n)
+            phi_k = approx_totient(k)
+
+            if phi_n * phi_k == 0:
+                return 1
+            return phi_nk / (phi_n * phi_k)
+        except:
+            return 1
+",127,0.0,25.551795959472656,0,2
+shadow_euler,"    def _shadow_euler(self, n, k):
+        """"""دالة أويلر الظلية المقترحة""""""
+        # حساب φ تقريبي
+        def approx_totient(x):
+            if x < 1000:  # جدول قيم صغير
+                return sum(1 for i in range(1, x) if gcd(i, x) == 1)
+            else:
+                # تقريب بسيط لا يحتاج التحليل
+                return int(x * 0.6)  # تقريب خاطئ لكن سريع
+
+        try:
+            phi_nk = approx_totient(n * k)
+            phi_n = approx_totient(n)
+            phi_k = approx_totient(k)
+
+            if phi_n * phi_k == 0:
+                return 1
+            return phi_nk / (phi_n * phi_k)
+        except:
+            return 1
+",131,0.0,28.60856056213379,0,2
+shadow_euler,"    def _shadow_euler(self, n, k):
+        """"""دالة أويلر الظلية المقترحة""""""
+        # حساب φ تقريبي
+        def approx_totient(x):
+            if x < 1000:  # جدول قيم صغير
+                return sum(1 for i in range(1, x) if gcd(i, x) == 1)
+            else:
+                # تقريب بسيط لا يحتاج التحليل
+                return int(x * 0.6)  # تقريب خاطئ لكن سريع
+
+        try:
+            phi_nk = approx_totient(n * k)
+            phi_n = approx_totient(n)
+            phi_k = approx_totient(k)
+
+            if phi_n * phi_k == 0:
+                return 1
+            return phi_nk / (phi_n * phi_k)
+        except:
+            return 1
+",137,0.0,31.673669815063477,0,2
+shadow_euler,"    def _shadow_euler(self, n, k):
+        """"""دالة أويلر الظلية المقترحة""""""
+        # حساب φ تقريبي
+        def approx_totient(x):
+            if x < 1000:  # جدول قيم صغير
+                return sum(1 for i in range(1, x) if gcd(i, x) == 1)
+            else:
+                # تقريب بسيط لا يحتاج التحليل
+                return int(x * 0.6)  # تقريب خاطئ لكن سريع
+
+        try:
+            phi_nk = approx_totient(n * k)
+            phi_n = approx_totient(n)
+            phi_k = approx_totient(k)
+
+            if phi_n * phi_k == 0:
+                return 1
+            return phi_nk / (phi_n * phi_k)
+        except:
+            return 1
+",139,0.0,35.05539894104004,0,2
+shadow_euler,"    def _shadow_euler(self, n, k):
+        """"""دالة أويلر الظلية المقترحة""""""
+        # حساب φ تقريبي
+        def approx_totient(x):
+            if x < 1000:  # جدول قيم صغير
+                return sum(1 for i in range(1, x) if gcd(i, x) == 1)
+            else:
+                # تقريب بسيط لا يحتاج التحليل
+                return int(x * 0.6)  # تقريب خاطئ لكن سريع
+
+        try:
+            phi_nk = approx_totient(n * k)
+            phi_n = approx_totient(n)
+            phi_k = approx_totient(k)
+
+            if phi_n * phi_k == 0:
+                return 1
+            return phi_nk / (phi_n * phi_k)
+        except:
+            return 1
+",149,0.0,38.045406341552734,0,3
+shadow_euler,"    def _shadow_euler(self, n, k):
+        """"""دالة أويلر الظلية المقترحة""""""
+        # حساب φ تقريبي
+        def approx_totient(x):
+            if x < 1000:  # جدول قيم صغير
+                return sum(1 for i in range(1, x) if gcd(i, x) == 1)
+            else:
+                # تقريب بسيط لا يحتاج التحليل
+                return int(x * 0.6)  # تقريب خاطئ لكن سريع
+
+        try:
+            phi_nk = approx_totient(n * k)
+            phi_n = approx_totient(n)
+            phi_k = approx_totient(k)
+
+            if phi_n * phi_k == 0:
+                return 1
+            return phi_nk / (phi_n * phi_k)
+        except:
+            return 1
+",143,0.0,40.84277153015137,0,2
+shadow_euler,"    def _shadow_euler(self, n, k):
+        """"""دالة أويلر الظلية المقترحة""""""
+        # حساب φ تقريبي
+        def approx_totient(x):
+            if x < 1000:  # جدول قيم صغير
+                return sum(1 for i in range(1, x) if gcd(i, x) == 1)
+            else:
+                # تقريب بسيط لا يحتاج التحليل
+                return int(x * 0.6)  # تقريب خاطئ لكن سريع
+
+        try:
+            phi_nk = approx_totient(n * k)
+            phi_n = approx_totient(n)
+            phi_k = approx_totient(k)
+
+            if phi_n * phi_k == 0:
+                return 1
+            return phi_nk / (phi_n * phi_k)
+        except:
+            return 1
+",323,0.0,45.12739181518555,0,8
+shadow_euler,"    def _shadow_euler(self, n, k):
+        """"""دالة أويلر الظلية المقترحة""""""
+        # حساب φ تقريبي
+        def approx_totient(x):
+            if x < 1000:  # جدول قيم صغير
+                return sum(1 for i in range(1, x) if gcd(i, x) == 1)
+            else:
+                # تقريب بسيط لا يحتاج التحليل
+                return int(x * 0.6)  # تقريب خاطئ لكن سريع
+
+        try:
+            phi_nk = approx_totient(n * k)
+            phi_n = approx_totient(n)
+            phi_k = approx_totient(k)
+
+            if phi_n * phi_k == 0:
+                return 1
+            return phi_nk / (phi_n * phi_k)
+        except:
+            return 1
+",667,0.0,58.7315559387207,0,13
+random_4,lambda function,21,0.0,0.06031990051269531,0,0
+random_4,lambda function,35,0.0,0.09012222290039062,0,0
+random_4,lambda function,100,0.0,0.12493133544921875,0,0
+random_4,lambda function,256,0.0,0.16498565673828125,0,0
+random_4,lambda function,101,0.0,0.19216537475585938,0,0
+random_4,lambda function,103,0.0,0.2453327178955078,0,0
+random_4,lambda function,107,0.0,0.2720355987548828,0,0
+random_4,lambda function,109,0.0,0.2970695495605469,0,0
+random_4,lambda function,113,0.0,0.32138824462890625,0,0
+random_4,lambda function,127,0.0,0.34689903259277344,0,0
+random_4,lambda function,131,0.0,0.37217140197753906,0,0
+random_4,lambda function,137,0.0,0.39696693420410156,0,0
+random_4,lambda function,139,0.0,0.4222393035888672,0,0
+random_4,lambda function,149,0.0,0.4487037658691406,0,0
+random_4,lambda function,143,0.0,0.4756450653076172,0,0
+random_4,lambda function,323,0.0,0.5106925964355469,0,0
+random_4,lambda function,667,0.0,0.553131103515625,0,0
+random_5,lambda function,21,0.5,0.09608268737792969,2,2
+random_5,lambda function,35,0.28571428571428575,0.13256072998046875,1,2
+random_5,lambda function,100,0.47058823529411764,0.17690658569335938,4,4
+random_5,lambda function,256,0.3636363636363637,0.22935867309570312,4,9
+random_5,lambda function,101,0.22222222222222224,0.2655982971191406,1,6
+random_5,lambda function,103,0.2,0.3025531768798828,1,7
+random_5,lambda function,107,0.0,0.3364086151123047,0,0
+random_5,lambda function,109,0.1818181818181818,0.37026405334472656,1,8
+random_5,lambda function,113,0.0,0.4031658172607422,0,0
+random_5,lambda function,127,0.1818181818181818,0.4379749298095703,1,8
+random_5,lambda function,131,0.1818181818181818,0.4742145538330078,1,8
+random_5,lambda function,137,0.1818181818181818,0.5092620849609375,1,8
+random_5,lambda function,139,0.2,0.545501708984375,1,7
+random_5,lambda function,149,0.16666666666666669,0.5831718444824219,1,9
+random_5,lambda function,143,0.15384615384615383,0.6208419799804688,1,8
+random_5,lambda function,323,0.125,0.6697177886962891,1,11
+random_5,lambda function,667,0.15384615384615385,6.698131561279297,2,20
+random_6,lambda function,21,0.5,0.0629425048828125,2,2
+random_6,lambda function,35,0.28571428571428575,0.09751319885253906,1,2
+random_6,lambda function,100,0.47058823529411764,0.1404285430908203,4,4
+random_6,lambda function,256,0.3636363636363637,0.1933574676513672,4,9
+random_6,lambda function,101,0.22222222222222224,0.22935867309570312,1,6
+random_6,lambda function,103,0.2,0.26535987854003906,1,7
+random_6,lambda function,107,0.0,0.2989768981933594,0,0
+random_6,lambda function,109,0.1818181818181818,0.3337860107421875,1,8
+random_6,lambda function,113,0.0,0.3666877746582031,0,0
+random_6,lambda function,127,0.1818181818181818,0.4024505615234375,1,8
+random_6,lambda function,131,0.1818181818181818,0.43845176696777344,1,8
+random_6,lambda function,137,0.1818181818181818,0.4913806915283203,1,8
+random_6,lambda function,139,0.2,0.5278587341308594,1,7
+random_6,lambda function,149,0.16666666666666669,0.5655288696289062,1,9
+random_6,lambda function,143,0.15384615384615383,0.6036758422851562,1,8
+random_6,lambda function,323,0.125,0.6520748138427734,1,11
+random_6,lambda function,667,0.15384615384615385,0.7145404815673828,2,20
+random_7,lambda function,21,0.0,0.09655952453613281,0,0
+random_7,lambda function,35,0.0,0.14543533325195312,0,0
+random_7,lambda function,100,0.0,0.23102760314941406,0,0
+random_7,lambda function,256,0.0,0.3674030303955078,0,0
+random_7,lambda function,101,0.0,0.4470348358154297,0,0
+random_7,lambda function,103,0.0,0.5283355712890625,0,0
+random_7,lambda function,107,0.0,0.6089210510253906,0,0
+random_7,lambda function,109,0.0,0.6873607635498047,0,0
+random_7,lambda function,113,0.0,0.7660388946533203,0,0
+random_7,lambda function,127,0.0,0.8590221405029297,0,0
+random_7,lambda function,131,0.0,0.9646415710449219,0,0
+random_7,lambda function,137,0.0,1.055002212524414,0,0
+random_7,lambda function,139,0.0,1.1458396911621094,0,0
+random_7,lambda function,149,0.0,1.2445449829101562,0,0
+random_7,lambda function,143,0.0,1.3365745544433594,0,0
+random_7,lambda function,323,0.0,1.4960765838623047,0,0
+random_7,lambda function,667,0.0,1.7657279968261719,0,0
+random_8,lambda function,21,0.5,0.06628036499023438,2,2
+random_8,lambda function,35,0.28571428571428575,0.10275840759277344,1,2
+random_8,lambda function,100,0.47058823529411764,0.1461505889892578,4,4
+random_8,lambda function,256,0.3636363636363637,0.1990795135498047,4,9
+random_8,lambda function,101,0.22222222222222224,0.2357959747314453,1,6
+random_8,lambda function,103,0.2,0.27370452880859375,1,7
+random_8,lambda function,107,0.0,0.3070831298828125,0,0
+random_8,lambda function,109,0.1818181818181818,0.3414154052734375,1,8
+random_8,lambda function,113,0.0,0.3750324249267578,0,0
+random_8,lambda function,127,0.1818181818181818,0.4115104675292969,1,8
+random_8,lambda function,131,0.1818181818181818,0.44798851013183594,1,8
+random_8,lambda function,137,0.1818181818181818,0.4863739013671875,1,8
+random_8,lambda function,139,0.2,0.5233287811279297,1,7
+random_8,lambda function,149,0.16666666666666669,0.5609989166259766,1,9
+random_8,lambda function,143,0.15384615384615383,0.5986690521240234,1,8
+random_8,lambda function,323,0.125,0.6470680236816406,1,11
+random_8,lambda function,667,0.15384615384615385,0.7092952728271484,2,20
+random_9,lambda function,21,0.0,0.07724761962890625,0,0
+random_9,lambda function,35,0.0,0.1239776611328125,0,0
+random_9,lambda function,100,0.0,0.225067138671875,0,0
+random_9,lambda function,256,0.0,0.36072731018066406,0,0
+random_9,lambda function,101,0.0,0.4398822784423828,0,0
+random_9,lambda function,103,0.0,0.5233287811279297,0,0
+random_9,lambda function,107,0.0,0.6017684936523438,0,0
+random_9,lambda function,109,0.0,0.6804466247558594,0,0
+random_9,lambda function,113,0.0,0.7631778717041016,0,0
+random_9,lambda function,127,0.0,0.8563995361328125,0,0
+random_9,lambda function,131,0.0,0.9436607360839844,0,0
+random_9,lambda function,137,0.0,1.02996826171875,0,0
+random_9,lambda function,139,0.0,1.119852066040039,0,0
+random_9,lambda function,149,0.0,1.218557357788086,0,0
+random_9,lambda function,143,0.0,1.3117790222167969,0,0
+random_9,lambda function,323,0.0,1.4693737030029297,0,0
+random_9,lambda function,667,0.0,1.7445087432861328,0,0
+genetic_gen3_12,lambda function (genetic),21,0.5,0.22673606872558594,2,2
+genetic_gen3_12,lambda function (genetic),35,0.5,0.43463706970214844,2,2
+genetic_gen3_12,lambda function (genetic),100,0.47058823529411764,0.8122920989990234,4,4
+genetic_gen3_12,lambda function (genetic),256,0.43478260869565216,1.383066177368164,5,9
+genetic_gen3_12,lambda function (genetic),101,0.2,1.8138885498046875,1,7
+genetic_gen3_12,lambda function (genetic),103,0.0,2.1882057189941406,0,8
+genetic_gen3_12,lambda function (genetic),107,0.0,2.7513504028320312,0,4
+genetic_gen3_12,lambda function (genetic),109,0.16666666666666669,3.1337738037109375,1,9
+genetic_gen3_12,lambda function (genetic),113,0.0,3.5066604614257812,0,6
+genetic_gen3_12,lambda function (genetic),127,0.1818181818181818,3.9114952087402344,1,8
+genetic_gen3_12,lambda function (genetic),131,0.0,4.303216934204102,0,9
+genetic_gen3_12,lambda function (genetic),137,0.2,4.715442657470703,1,7
+genetic_gen3_12,lambda function (genetic),139,0.1818181818181818,5.105018615722656,1,8
+genetic_gen3_12,lambda function (genetic),149,0.16666666666666669,5.545616149902344,1,9
+genetic_gen3_12,lambda function (genetic),143,0.14285714285714288,5.944728851318359,1,9
+genetic_gen3_12,lambda function (genetic),323,0.10526315789473685,6.569147109985352,1,14
+genetic_gen3_12,lambda function (genetic),667,0.16,7.502555847167969,2,19
